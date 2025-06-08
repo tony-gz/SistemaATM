@@ -20,7 +20,7 @@ public class ConsultarSaldoFrame extends javax.swing.JFrame {
         this.usuario = usuario;
         initComponents();
         saldo.setText("SALDO DISPONIBLE: $" + usuario.getSaldo());
-        this.setLocationRelativeTo(null); // Centrar ventana
+        this.setLocationRelativeTo(null); 
     }
 
     /**

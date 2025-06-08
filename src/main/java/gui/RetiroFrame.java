@@ -411,42 +411,36 @@ public class RetiroFrame extends javax.swing.JFrame {
 
     private void lbl50MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl50MouseClicked
         // TODO add your handling code here:
-        //txtMonto.setText("50.00");
         agregarMonto(txtMonto, 50.00);
         lblResultado.setText("");
     }//GEN-LAST:event_lbl50MouseClicked
 
     private void lbl100MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl100MouseClicked
         // TODO add your handling code here:
-        //txtMonto.setText("100.00");
         agregarMonto(txtMonto, 100.00);
         lblResultado.setText("");
     }//GEN-LAST:event_lbl100MouseClicked
 
     private void lbl500MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl500MouseClicked
         // TODO add your handling code here:
-        //txtMonto.setText("500.00");
         agregarMonto(txtMonto, 500.00);
         lblResultado.setText("");
     }//GEN-LAST:event_lbl500MouseClicked
 
     private void lbl1000MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl1000MouseClicked
         // TODO add your handling code here:
-        //txtMonto.setText("1000.00");
         agregarMonto(txtMonto, 1000.00);
         lblResultado.setText("");
     }//GEN-LAST:event_lbl1000MouseClicked
 
     private void lbl5000MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lbl5000MouseClicked
         // TODO add your handling code here:
-        //txtMonto.setText("5000.00");
         agregarMonto(txtMonto, 5000.00);
         lblResultado.setText("");
     }//GEN-LAST:event_lbl5000MouseClicked
 
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
         // TODO add your handling code here:
-        //txtMonto.setText("10000.00");
         agregarMonto(txtMonto, 10000.00);
         lblResultado.setText("");
     }//GEN-LAST:event_jLabel1MouseClicked

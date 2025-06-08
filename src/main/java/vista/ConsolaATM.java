@@ -17,7 +17,6 @@ public class ConsolaATM {
     }
     private void tarjetaRetenida() {
     System.out.println("PIN incorrecto 3 veces. Su tarjeta ha sido retenida.");
-    // Aquí podrías implementar una lógica para bloquear la cuenta, si quieres.
     }
 
 
@@ -57,13 +56,13 @@ public class ConsolaATM {
 
             if (usuario == null) {
                 tarjetaRetenida();
-                break; // o continue; si deseas seguir permitiendo nuevos ID
+                break;
             }
 
             System.out.println("¡Autenticación exitosa! Bienvenido, " + usuario.getNombre());
             ATM atm = new ATM(usuario);
             mostrarMenu(atm);
-            break; // Salir después de una sesión exitosa
+            break; 
         }
     }
 

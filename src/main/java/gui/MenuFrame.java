@@ -19,7 +19,7 @@ public class MenuFrame extends javax.swing.JFrame {
     public MenuFrame(Usuario usuario) {
         this.usuario = usuario;
         initComponents();
-        this.setLocationRelativeTo(null); // Centrar ventana
+        this.setLocationRelativeTo(null);
         bien.setText("¡Hola, " + usuario.getNombre() + "!");
         
     }

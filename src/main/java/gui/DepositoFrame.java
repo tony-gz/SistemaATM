@@ -399,14 +399,14 @@ public class DepositoFrame extends javax.swing.JFrame {
     
     private void btnRegresarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnRegresarMouseClicked
         // TODO add your handling code here:
-        new MenuFrame(usuario).setVisible(true); // Abre menú principal
-        this.dispose(); // Cierra login
+        new MenuFrame(usuario).setVisible(true); 
+        this.dispose(); 
     }//GEN-LAST:event_btnRegresarMouseClicked
 
     private void btnCerrarSesionMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnCerrarSesionMouseClicked
         // TODO add your handling code here:
         new LoginFrame().setVisible(true);
-        this.dispose(); // Cierra login
+        this.dispose();
     }//GEN-LAST:event_btnCerrarSesionMouseClicked
 
     private void btnAceptarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnAceptarMouseClicked
